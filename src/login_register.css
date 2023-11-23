@@ -1,0 +1,103 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(chat.png);
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 25%;
+    height: 520px;
+    margin: 8% auto;
+    position:relative;
+    background-color: #ffffff50;
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 10px 5px #ffffff8f;
+    overflow: hidden;
+    border-radius: 50px;
+}
+.toogle{
+    width:220px;
+    margin:35px auto;
+    position:relative;
+    box-shadow: 0 0 20px 9px #3a05a53f;
+    border-radius: 30px;
+}
+.togglebtn{
+    padding:10px 30px;
+    cursor:pointer;
+    background:transparent;
+    border:0;
+    position: relative;
+}
+#btn{
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: #6585ed;
+    border-radius: 30px;
+    transition: .6s;
+}
+::placeholder{
+    color: black;
+}
+.loginput{
+    top: 150px;
+    position:absolute;
+    width:280px;
+    transition:.6s;
+}
+.reginput{
+    top: 120px;
+    position:absolute;
+    width:280px;
+    transition:.6s;
+}
+.cred{
+    width: 100%;
+    padding:10px 0;
+    margin:5px 0;
+    border-left:0;
+    border-top:0;
+    border-right:0;
+    border-bottom: 1px solid #999;
+    outline:none;
+    background: transparent;
+}
+.subbtn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: #43aaff;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.checkbox{
+    margin: 30px 10px 34px 0;
+}
+span{
+    font-size:13px;
+    bottom:68px;
+    position:absolute;
+}
+#login{
+    left:50px;
+}
+#login input{
+    font-size:15;
+}
+#register{
+    left:450px;
+}
+#register input{
+    font-size: 15;
+}
